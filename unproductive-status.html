@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Darshan</title>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+</head>
+
+<body>
+<div class="wrapper w320">
+  <div class="header">
+    <div class="logo fleft"><img src="image/logo.png" width="75" height="49" title="logo"/> </div>
+    <div class="h_title fleft">DARSHAN
+      <div class="sub_title">Harsha</div>
+    </div>
+	  <div class="fright m10"><a href=""><img width="28" src="image/Sync.png"/></a></div>
+	  <div class="fright m10"><a href=""><img width="28" src="image/Search.png"/></a></div>
+  </div>
+  <div class="cls"></div>
+  <div class="cal_d">
+    <ul>
+      <li>
+        <div>FRI</div>
+        <a class="active" href="">13</a></li>
+      <li>
+        <div>SAT</div>
+        <a href="">14</a></li>
+      <li>
+        <div>SUN</div>
+        <a href="">15</a></li>
+      <li>
+        <div>MON</div>
+        <a href="">16</a></li>
+      <li>
+        <div>TUE</div>
+        <a href="">17</a></li>
+      <li>
+        <div>WED</div>
+        <a href="">18</a></li>
+      <li>
+        <div>THU</div>
+        <a href="">19</a></li>
+    </ul>
+  </div>
+  <div class="content">
+    <p>
+      <center>
+        Unproductive status
+      </center>
+    </p>
+    <button id="myBtn">Open Modal</button>
+    <div id="myModal" class="modal"> 
+      
+      <!-- Modal content -->
+      <div class="modal-content w320"s>
+        <div class="modal-header"> <span class="close">&times;</span>
+          <h2>unproductive status</h2>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <div class="model-line">
+              <label for="Shop">Shop close today</label>
+              <input type="radio" name="unproductive" id="Shop" value="Shop">
+            </div>
+            <div class="model-line">
+              <label for="requirement">No requirement for the day</label>
+              <input type="radio" name="unproductive" id="requirement" value="requirement">
+            </div>
+            <div class="model-line">
+              <label for="Retailer">Retailer was not in shop</label>
+              <input type="radio" name="unproductive" id="Retailer" value="Retailer">
+            </div>
+            <div class="model-line">
+              <label for="Manager">Manager Checkin</label>
+              <input type="radio" name="unproductive" id="Manager" value="Manager">
+            </div>
+          </form>
+        </div>
+        <a class="btn bgc-blue" href=""> Cancel </a> </div>
+    </div>
+  </div>
+  <div> </div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>

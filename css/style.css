@@ -1,0 +1,290 @@
+/* Reset CSS Start*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Open Sans', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Reset CSS END*/
+
+
+
+/* common css Start */
+.w320 {
+	width: 320px!important;
+	margin: 0 auto;
+	background: #fff;
+}
+.w100{width:100%;}
+.w90{width:90%;}
+.w80{width:80%;}
+.w60{width:60%;}
+.w40{width:40%;}
+.w20{width:20%;}
+.lh25{line-height: 25px;}
+.pl5{
+	padding-left: 5px;
+	}
+.mtb5{margin-top: 5px; margin-bottom: 5px;}    
+.m10{margin: 10px;}
+body {
+	background: #f2f2f2;
+}
+.header {
+	background: #b95606;
+	display: inline-block;
+    width: 100%;
+
+}
+.h_title {
+    color: #fff;
+	margin-top: 10px;
+    margin-left: 5px;
+}
+.sub_title{color:#E8E3E3;}
+.content {
+	background: #fff;
+	min-height: 400px;
+}
+.cls {
+	clear: both;
+}
+.fleft{float:left;}
+.fright{float:right;}
+/* common css End */
+
+
+/* Calendar  CSS start */
+.cal_d li {
+	display: inline-block;
+	padding: 5px 3px;
+	text-align: center;
+}
+.cal_d a {
+	text-decoration: none;
+	background: #fff;
+	color: #b95606;
+	border-radius: 5px;
+	padding: 5px 10px;
+	line-height: 40px;
+}
+.cal_d a.active {
+	background: #b95606;
+	color: #fff;
+}
+.cal_d a:hover {
+	background: #f79c53;
+	color: #fff;
+}
+.cal_d {
+	font-size: 14px;
+}
+/* Calendar  CSS end */
+
+
+
+/* Product Page CSS Start */
+.product {
+	margin: 10px;
+	border: 1px solid #ccc;
+	display: inline-block;
+	padding: 5px;
+	background: #fffcfa;
+	font-size: 11px;
+}
+.p_btn a {
+	text-decoration: none;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px 8px;
+	font-size: 12px;
+	color: #000;
+	border-right: 0;
+}
+.p_btn a:last-child {
+	border-right: 1px solid #ccc;
+}
+.p_btn a:hover {
+	background: #b95606;
+	color: #fff;
+}
+.p_btn {
+	margin: 10px 5px 0 5px;
+}
+.btn{width:100%; background: #8D66FF;
+}
+
+.btn {
+    width: 100%;
+   
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 0;
+}
+.btn50 {
+    width: 50%;
+   float: left;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 0;
+}
+.bgc-blue{background: #8D66FF;}
+.bgc-red{background:#e60101;}
+.bgc-green{background:#4bd463;}
+
+.c-grey{color:#9A9A9A;}
+.p_link li a {
+    text-decoration: none;
+    background: #36547b;
+    float: left;
+    margin: 2px;
+    border-radius: 3px;
+    padding: 5px;
+    color: #fff;font-size: 13px;
+}
+.p_list {
+    margin: 5px 10px 5px 10px;
+    background: #fbfaf9;
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.p_l_title{font-size: 14px;}
+.btn_minus,.btn_plus{background: #cfcfcf; font-size: 20px; padding: 0 10px; text-decoration: none; }
+.p_n_input {
+    width: 30px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    font-size: 15px;
+    height: 18px;
+}
+.order-line {
+    padding: 5px 10px 5px 10px;
+    border-top: 1px solid #ccc;
+    line-height: 30px;
+    margin: 5px 0px 0px 0px;font-size: 14px;
+}
+
+/* Product Page CSS END */
+
+
+
+/* popup css Start */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;line-height: 15px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 10px 16px;
+    background-color: #f3a15f;
+    color: white;
+}
+
+.modal-body {padding: 15px 0px;}
+
+.modal-footer {
+    padding: 10px 16px;
+    background-color: #f3a15f;
+    color: white;
+}
+.model-line {
+    border-bottom: 1px solid #f2f2f2;
+    padding: 10px 10px;
+}
+.modal-body label {font-size:14px;	
+}
+.modal-body input[type="radio"] {float:right;}
+.modal-body input[type="text"] {
+    border: 1px solid #f2f2f2;
+    width: 90%;
+    padding: 5px 10px;
+    margin: 10px 5px;
+}
+.modal-body select{border: 1px solid #f2f2f2;
+    width: 97%;
+    padding: 5px 10px;
+    margin: 10px 5px;}
+/* popup css END */
+
